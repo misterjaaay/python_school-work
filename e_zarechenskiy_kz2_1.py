@@ -6,8 +6,7 @@ total = 0
 pattern = ",.:;!?"
 
 text = text.lower().translate(None, pattern).split()
-
-for x in raw_text:
+for x in text:
 	if x == x[::-1]:
 		total += 1
 print "The number of palindromes in string '%s' is: %s" % (raw_text, total)
