@@ -13,6 +13,6 @@ for i in string:
 		
 odd = sorted(odd)
 even = sorted(even)
-change_string = odd+even[::-1] 
 change_string = "".join(odd+even[::-1] )
+
 print change_string
